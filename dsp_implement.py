@@ -21,8 +21,8 @@ def solver():
                 if i>=j:
                     Y[i]=Y[i]+xn[i-j]*hn[j]
         print(Y)
-        for j in Y:
-            print(j)
+        for s in Y:
+            print(s)
     if l==2:
         xn=list(map(float,input('X[n]: ').split()))
         N=int(input('How many point DFT:'))
